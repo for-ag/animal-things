@@ -65,7 +65,7 @@ return (
 
       <span></span>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 px-12 py-4 bg-slate-400 rounded-md mx-8">
+      <div className="flex flex-wrap justify-around gap-4 px-12 py-4 bg-slate-400 rounded-md mx-8">
         <button onClick={fetchDog} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Random Dog!</button>
         <button onClick={fetchFact} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Random Animal Fact!</button>
         <button onClick={fetchCat} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Random Cat!</button>
